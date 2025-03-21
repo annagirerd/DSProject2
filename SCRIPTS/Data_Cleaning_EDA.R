@@ -234,24 +234,6 @@ ggplot(injuries_long, aes(x = Year, y = injury_count, color = injury_type, group
   theme_minimal() +
   theme(legend.position = "top")
 
-#Visualize FatalInjuryCount
-table(Data$FatalInjuryCount)
-ggplot(Data, aes(x=as.factor(FatalInjuryCount))) + 
-         geom_bar(color="blue", fill=rgb(0.1,0.4,0.5,0.7))
-
-#Visualize Year Distribution
-table(Data$Year)
-ggplot(Data, aes(x=as.factor(Year), fill=as.factor(Year))) + 
-  geom_bar( ) +
-  scale_fill_hue(c = 40) +
-  theme(legend.position="none")
-
-#Visualize Month distribution (1-12, 1 for January, 2 for February, etc.)
-table(Data$Month)
-ggplot(Data, aes(x=as.factor(Month), fill=as.factor(Month))) + 
-  geom_bar( ) +
-  scale_fill_hue(c = 40) +
-  theme(legend.position="none")
 
 #################################
 ### Comparison of Airbus vs. Boeing 
