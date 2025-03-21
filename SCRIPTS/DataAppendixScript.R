@@ -16,14 +16,13 @@ ggplot(Data, aes(x=Year, fill=as.factor(Year))) +
   scale_fill_hue(c = 40) +
   theme(legend.position="none")
 
-# Visualize Month distribution (1-12, 1 for January, 2 for February, etc.)
+# Visualize Month distribution
 table(Data$Month)
 
-ggplot(Data, aes(x=Month, fill=Month)) + 
+ggplot(Data, aes(x=Month, fill=as.factor(Month))) + 
   geom_bar( ) +
   scale_fill_hue(c = 40) +
   theme(legend.position="none")
-
 
 # Visualize FatalInjuryCount
 summary(Data$FatalInjuryCount)
