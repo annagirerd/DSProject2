@@ -1,3 +1,13 @@
+#=======================================================================================
+# Analyzing and Predicting Aviation Accidents Over Time
+#
+# This script examines trends in civil aviation accidents from 2015 to 2024. 
+# It organizes the data into yearly and monthly time series to identify patterns. 
+# The script uses statistical models to check for trends and seasonal effects, 
+# evaluates the accuracy of these models, and makes predictions for future accidents. 
+# It also includes a similar analysis of fatal accidents over time.
+#=======================================================================================
+
 library(mtsdi)
 library(forecast)
 library(ggplot2)
