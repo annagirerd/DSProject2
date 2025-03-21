@@ -174,7 +174,10 @@ ggplot() +
 
 
 
-#*****analysis for FATAL accidents 
+# Since we did not need ARIMA for our previous analysis of aviation accidents over time in general, perhaps analyzing FATAL accidents over time 
+# will yield different results. 
+
+#### Analysis for FATAL accidents:
 
 library(lubridate)
 library(tidyverse)
