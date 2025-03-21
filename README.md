@@ -15,7 +15,7 @@ In our project, we used R/R Studio to run our code on a Mac computer. The follow
 - stringr
 
 ## Map of Documentation 
-![Project 2 Hierarchy](https://github.com/user-attachments/assets/62292b04-cd69-464e-a757-cda97c35f3e4)
+![Project 2 Hierarchy (1)](https://github.com/user-attachments/assets/b11da1ec-5e84-4137-b707-16f922da51a2)
 
 
 ## Reproducing Results
